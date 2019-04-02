@@ -8,16 +8,16 @@ the `Startup` class in ASP.net Core, sane.
 
 AtleX.DependencyInjection is available in two NuGet packages.
 
-For ASP.net Core:
+For ASP.net Core with [AtleX.DependencyInjection.Modules.AspNetCore](https://www.nuget.org/packages/AtleX.DependencyInjection.Modules.AspNetCore):
 
 ```powershell
-dotnet add project.csproj package [AtleX.DependencyInjection.Modules.AspNetCore](https://www.nuget.org/packages/AtleX.DependencyInjection.Modules.AspNetCore)
+dotnet add project.csproj package AtleX.DependencyInjection.Modules.AspNetCore
 ```
 
-Generic .NET Core:
+Generic .NET Core with [AtleX.DependencyInjection.Modules](https://www.nuget.org/packages/AtleX.DependencyInjection.Modules):
 
 ```powershell
-dotnet add project.csproj package [AtleX.DependencyInjection.Modules](https://www.nuget.org/packages/AtleX.DependencyInjection.Modules)
+dotnet add project.csproj package AtleX.DependencyInjection.Modules
 ```
 
 
