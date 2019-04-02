@@ -146,6 +146,6 @@ services.RegisterModules(this.Configuration);
 services.RegisterModules(this.Configuration, typeof(Service1).Assembly);
 ```
 
-License
+# License
 
 AtleX.DependencyInjection uses the MIT license, see the LICENSE file.
